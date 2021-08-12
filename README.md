@@ -4,30 +4,30 @@ This repository provides code and additional materials of the paper: "The Russia
 Data
 ---
 
-*comming soon*
+*coming soon*
 
 Model
 ---
 
-*comming soon*
+*coming soon*
 
 Results
 ---
 
-*comming soon*
+*coming soon*
 
 Future work
 ---
-*comming soon*
+*coming soon*
 
 Requirements
 ---
-*comming soon*
+*coming soon*
 
 
 Citing & Authors
 ---
 If you have found our results helpful in your work, feel free to cite our publication and this repository as
 ```
-*comming soon*
+*coming soon*
 ```
