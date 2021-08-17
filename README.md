@@ -44,7 +44,7 @@ This model was fine-tuned for the classification task. Two tasks were considered
 ``class all_about_covid - combines 4 classes: potential_covid_high_confidence, potential_covid_low_confidence, had_covid_high_confidence, and had_covid_low_confidence``
 
 This step is presented in jupyter notebook ``./notebooks/Fine-tuning_a_pre-trained_Language_Model.ipynb``
-Before running the notebook, you need to download the data and place them in a folder ```./date/```.
+Before running the notebook, you need to download the data and place them in a folder ```./data/```.
 
 Results
 ---
