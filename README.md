@@ -28,7 +28,7 @@ We collected three types of data:
 The final unlabeled corpus includes all unique Russian-language tweets from the collected data (about 1M tweets). Since modern language models are usually multilingual, about 1M more tweets in other languages were added to this corpus using filtering procedures described above. Thus, in the unlabeled part of the collected data, there were about 2 million messages.
 
 Links to tweets from the annotated part are available at ``./data/labeled_corpus_links.csv``. 
-Links to tweets from unlabeled parts are uploaded to our cloud storage and are available [here](link).
+Links to tweets from unlabeled parts are uploaded to our cloud storage and are available [here](https://cloud.mail.ru/public/DCGH/feCmMZraE).
 We can also provide data with the text of tweets for all parts of the data for this please contact us on email: sag111@mail.ru
 
 Model
