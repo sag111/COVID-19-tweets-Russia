@@ -16,16 +16,14 @@ We collected three types of data:
 	- had_covid_low_confidence -- had coronavirus with low probability;
 	- other -- mention coronavirus but don't refer to a potential case of the author or his\textbackslash her relatives
 
-2. Unlabeled part with tweets about covid (total _ tweets);
-	The data on keyword "covid" was expanded with texts containing  other words often occurred in hashtags on the Covid-19 pandemic: "covid", "stayhome", and "coronavirus" (here, these are translations of Russian words into English).
-
-3. Unlabeled part with tweets from users from large regions of Russia (total 705,453 tweets for a 15 largest regional center of Russia).
+2. Unlabeled part with tweets from users from large regions of Russia (total 705,453 tweets for a 15 largest regional center of Russia).
 	The search was provided using different word forms of 58 manually selected keywords on Russian related to the topic of coronavirus infection (including: "PCR", "pandemic", "self-isolation", etc.).
 	The affiliation of a tweet to one of the regions was determined in two ways: 
 	- the text of the message directly mentions the capital of the region; 
 	- there is a capital of the region in the field "home region" of the author's account.
 
-The final unlabeled corpus includes all unique Russian-language tweets from the collected data (about 1M tweets). Since modern language models are usually multilingual, about 1M more tweets in other languages were added to this corpus using filtering procedures described above. Thus, in the unlabeled part of the collected data, there were about 2 million messages.
+3. Unlabeled part with tweets about covid for Language Model training (total 1,979,247 tweets);
+	The data on keyword "covid" was expanded with texts containing  other words often occurred in hashtags on the Covid-19 pandemic: "covid", "stayhome", and "coronavirus" (here, these are translations of Russian words into English). This part includes all unique Russian-language tweets from the collected data (about 1M tweets). Since modern language models are usually multilingual, about 1M more tweets in other languages were added to this corpus using filtering procedures described above. Thus, in the unlabeled part of the collected data, there were about 2 million messages.
 
 Links to tweets from the annotated part are available at ``./data/labeled_corpus_links.csv``. 
 Links to tweets from unlabeled parts are uploaded to our cloud storage and are available [here](https://cloud.mail.ru/public/DCGH/feCmMZraE).
@@ -46,6 +44,7 @@ This model was fine-tuned for the classification task. Two tasks were considered
 ``class all_about_covid - combines 4 classes: potential_covid_high_confidence, potential_covid_low_confidence, had_covid_high_confidence, and had_covid_low_confidence``
 
 This step is presented in jupyter notebook ``./notebooks/Fine-tuning_a_pre-trained_Language_Model.ipynb``
+Before running the notebook, you need to download the data and place them in a folder ```./date/```.
 
 Results
 ---
