@@ -72,4 +72,4 @@ If you have found our results helpful in your work, feel free to cite our public
 
 Contributions
 ---
-Thanks to @naumov-al for adding this dataset.
+Thanks to [@naumov-al](https://github.com/naumov-al) for adding this additional materials.
