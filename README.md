@@ -63,9 +63,9 @@ Citing & Authors
 ---
 If you have found our results helpful in your work, feel free to cite our publication and this repository as
 ```
-@article{*coming soon*,
-  title={The Russian language corpus and a neural networkto analyse Internet tweet reports about Covid-19},
-  author={Sboev, Alexander G and Moloshnikov, Ivan A and Naumov, Aleksandr V and Levochkina, Anastasia and Rybka, Roman B},
+@article{sboev2021russian,
+  title={The Russian language corpus and a neural network to analyse Internet tweet reports about Covid-19},
+  author={Sboev, Alexander and Moloshnikov, Ivan and Naumov, Alexander and Levochkina𝑎, Anastasia and Rybka𝑎, Roman},
   year={2021}
 }
 ```
